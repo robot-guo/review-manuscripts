@@ -1,6 +1,6 @@
 # review-manuscripts · 论文检查与审稿
 
-An instruction-based skill for evidence-grounded manuscript checks, peer review, and revision-response assessment. 面向交通、运筹优化和机器学习论文；中文分析、英文意见为默认值，可按需更改。
+An instruction-based skill for evidence-grounded manuscript checks, peer review, and revision-response assessment. 用于论文自查、审阅和意见核查，不限定学科或审稿阶段；中文分析、英文意见为默认值，可按需更改。
 
 核心原则：先判断问题是否真实存在，再决定是否值得提出，最后用简洁、适度的语言写出意见。
 
@@ -22,7 +22,7 @@ An instruction-based skill for evidence-grounded manuscript checks, peer review,
 
 Codex 示例：
 
-> 使用 $review-manuscripts 检查附件。我是第二轮审稿人，请核对原意见、回复和修订正文，只保留尚未解决且有依据的问题。
+> 使用 $review-manuscripts 审阅附件，核实主要结论是否得到支持，给出简洁、有依据的意见。
 
 > 使用 $review-manuscripts 自查我的论文。先检查公式、边界条件和实验结论，中文列出位置、原因及最小修改建议。
 
@@ -32,7 +32,7 @@ Codex 示例：
 
 ## 输入与输出
 
-优先提供当前稿件，修订评估还需原意见和回复信。允许指定审稿人编号、语言、语气、顺序和输出格式。
+提供需要检查的稿件即可；核查作者回复时再附上相关意见和回复。无需指定审稿人编号或审稿轮次，可按需设置语言、语气、顺序和输出格式。
 
 默认给出中文核查结论；请求正式意见时给出英文稿。仅在用户需要时提供详细证据表，不把内部检查清单堆入最终意见。无法读取材料时明确说明检查范围。
 
