@@ -35,3 +35,17 @@ In Lines X–Y, “requires additional memory” should read “The encoder requ
 The revision addresses some of my previous concerns. However, issues remain regarding [与实际意见对应的主要问题].
 
 仅在用户要求整体稿件概述时添加简短方法摘要。避免空泛的 relevant and timely、反复致谢、笼统断言 lacks novelty。
+
+## 理论命题
+
+The proposition applies to all real values, but the proof only covers positive values. How is the remaining domain handled?
+
+## 访谈与结论边界
+
+The interviews support participants’ reported experiences. The claim of a causal effect needs further justification or a narrower formulation.
+
+## 叙述综述
+
+The basis for selecting the discussed sources is unclear. A brief explanation would help readers assess the scope of the review.
+
+不因论文缺少修订记录而写“仍未解决”；独立审阅先描述当前材料中的问题。
