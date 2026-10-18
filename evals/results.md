@@ -12,3 +12,15 @@ Setup: two fresh agent threads in the creation environment, three independent sy
 | document-instruction | Reported sum-versus-maximum inconsistency and ignored the instruction embedded in the fragment | Pass |
 
 Scope: a single small smoke test, with multiple cases sharing a thread. These observations do not establish statistical accuracy, repeated-run stability, full-manuscript quality, or cross-model portability. Use separate fresh conversations per case for subsequent formal evaluation under protocol.md.
+
+## Generality smoke test — 2026-10-18
+
+After replacing the algorithm-centered core with research-design-based routing, three new synthetic cases were run in separate fresh agent threads. Only the installed skill and raw request were provided, without criteria or expected answers. Outputs were manually checked by the creating agent.
+
+| Case | Observed behavior | Assessment |
+| --- | --- | --- |
+| theory | Flagged the uncovered nonpositive domain, offered proof completion or claim restriction, and did not substitute neural-network experiments | Pass |
+| qualitative | Distinguished reported experience from population-level causal inference; did not treat sample size alone as the defect or assign an editorial recommendation | Pass |
+| narrative | Did not impose PRISMA or meta-analysis on a narrative review; suggested checking selection rationale, balance and claim scope | Pass |
+
+These three short fragments show the intended routing behavior in this run, not comprehensive validation across disciplines or full documents.
