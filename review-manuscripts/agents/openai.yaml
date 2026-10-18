@@ -1,0 +1,13 @@
+interface:
+  display_name: 论文检查与审稿
+  short_description: 核对正文、公式、实验与审稿回复，形成准确、直接且语气适度的意见
+  default_prompt: 使用 $review-manuscripts 检查这篇论文或修订回复，核实问题是否成立，并按我的风格给出简洁直接的意见。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
